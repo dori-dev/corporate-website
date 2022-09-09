@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/vazir.woff") format("woff"),
+    url("../fonts/vazir.woff2") format("woff2");
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+}
+
+body {
+  font-family: "vazir";
+  direction: rtl;
+  text-align: right;
+}
