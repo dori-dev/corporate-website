@@ -1,7 +1,11 @@
 @font-face {
   font-family: "vazir";
-  src: url("../fonts/vazir.woff") format("woff"),
-    url("../fonts/vazir.woff2") format("woff2");
+  src: url("../fonts/vazir.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "vazir-bold";
+  src: url("../fonts/vazir-bold.woff2") format("woff2");
 }
 
 svg {
@@ -13,4 +17,25 @@ body {
   font-family: "vazir";
   direction: rtl;
   text-align: right;
+}
+
+.bg-light {
+  background-color: #0984e3 !important;
+}
+
+.navbar-brand {
+  font-family: "vazir-bold";
+}
+
+.navbar-nav {
+  padding-right: 36px;
+}
+
+.navbar-toggler {
+  border: 1px solid #f5f5f5;
+  outline: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 2px #f5f5f5;
 }
