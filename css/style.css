@@ -39,3 +39,19 @@ body {
 .navbar-toggler:focus {
   box-shadow: 0 0 0 2px #f5f5f5;
 }
+
+.profile {
+  width: 380px;
+}
+
+.blue-color {
+  color: #0984e3;
+}
+
+.bold-text {
+  font-family: "vazir-bold";
+}
+
+.text {
+  color: #333;
+}
