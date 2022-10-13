@@ -19,11 +19,15 @@ body {
   text-align: right;
 }
 
+a {
+  text-decoration: none;
+}
+
 .bg-light {
   background-color: #0984e3 !important;
 }
 
-.navbar-brand {
+.bold-font {
   font-family: "vazir-bold";
 }
 
@@ -54,4 +58,22 @@ body {
 
 .text {
   color: #333;
+}
+
+.social {
+  fill: #222;
+  transition: all 0.2s ease-in-out;
+}
+
+.social svg {
+  width: 23px;
+  height: 23px;
+}
+
+.social:hover {
+  fill: #0984e3
+}
+
+.progress {
+  height: 10px;
 }
