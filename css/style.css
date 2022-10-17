@@ -90,3 +90,7 @@ a {
 .text-light {
   color: #fefefe !important;
 }
+
+.rating svg {
+  fill: var(--primary);
+}
