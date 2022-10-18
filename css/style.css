@@ -94,3 +94,9 @@ a {
 .rating svg {
   fill: var(--primary);
 }
+
+.contact-item .icon svg {
+  fill: var(--primary);
+  width: 30px;
+  height: 30px;
+}
