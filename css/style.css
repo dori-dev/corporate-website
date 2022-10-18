@@ -100,3 +100,10 @@ a {
   width: 30px;
   height: 30px;
 }
+
+.footer svg {
+  fill: #333;
+  width: 14px;
+  height: 14px;
+  margin-left: 3px;
+}
